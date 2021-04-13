@@ -1,0 +1,39 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.Nav_brand {
+    padding-left: 20px;
+    cursor: pointer; 
+    font-size: 1.8rem;
+}
+
+.Nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 0.4s ease-in;
+}
+
+.Nav_item {
+    padding-right: 20px;
+    font-size: 1.1rem;
+    cursor: pointer; 
+    opacity: 0.6;
+}
+
+.Nav_item:hover {
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 570px) {
+    .Nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

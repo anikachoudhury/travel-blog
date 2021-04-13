@@ -1,0 +1,44 @@
+.Hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.Hero_title {
+    font-size: 3rem;
+}
+
+.yellow {
+    color: #F18F01;
+}
+
+.Hero_subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    opacity: 0.6;
+}
+
+.Hero_button>button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+    background-color: #F18F01;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Hero_button>button:hover {
+    background-color: #ffc107;
+}
