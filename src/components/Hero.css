@@ -40,5 +40,9 @@
 }
 
 .Hero_button>button:hover {
-    background-color: #ffc107;
+    background-color: #d37810;
+}
+
+.Hero_button i {
+    margin-left: 5px;
 }

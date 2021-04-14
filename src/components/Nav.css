@@ -14,13 +14,17 @@
 .Nav_links {
     display: flex;
     justify-content: space-evenly;
-    transition: all 0.4s ease-in;
 }
 
 .Nav_item {
     padding-right: 20px;
     font-size: 1.1rem;
     cursor: pointer; 
+    transition: 0.15s ease-in-out;
+}
+
+div.Nav_item {
+    color: black;
     opacity: 0.6;
 }
 
@@ -35,5 +39,11 @@
         flex-direction: column;
     }
 
-
 }
+
+
+.highlight {
+    border-left: 5px solid #F18F01;
+    border-radius: 10%;
+}
+

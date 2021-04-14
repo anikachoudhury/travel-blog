@@ -15,7 +15,7 @@ function Features() {
                         The best restaurants in Rome
                     </div>
                     <div className="Features_card_image">
-                        <img src={food} width={250} height={250}></img>
+                        <img src={food} width={250} height={250} alt="people dining"></img>
                     </div>
                     <div className="Features_card_button">
                         <button>Read Article</button>
@@ -27,7 +27,7 @@ function Features() {
                         Breathtaking views from New York skycrapers
                     </div>
                     <div className="Features_card_image">
-                        <img src={skyscraper} width={250} height={250}></img>
+                        <img src={skyscraper} width={250} height={250} alt="city buildings"></img>
                     </div>
                     <div className="Features_card_button">
                         <button>Read Article</button>
@@ -39,7 +39,7 @@ function Features() {
                         Must do activities in Paris
                     </div>
                     <div className="Features_card_image">
-                        <img src={paris} width={250} height={250}></img>
+                        <img src={paris} width={250} height={250} alt="eiffel tower"></img>
                     </div>
                     <div className="Features_card_button">
                         <button>Read Article</button>

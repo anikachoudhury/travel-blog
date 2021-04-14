@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 function Hero() {
@@ -11,10 +12,11 @@ function Hero() {
             <div className="Hero_subtitle">
                 <div>Keep reading for an insight into the life of an avid traveller.</div>
             </div>
-
-            <div className="Hero_button">
-                <button>Blog</button>
-            </div>
+            <Link to='/blog'>
+                <div className="Hero_button">
+                    <button>Blog<i class="fas fa-angle-double-right"></i></button>
+                </div>
+            </Link>
         </div>
     )
 }

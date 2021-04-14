@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
 function Nav() {
@@ -9,10 +10,18 @@ function Nav() {
             </div>
 
             <div className="Nav_links">
-                <div className="Nav_item">Home</div>
-                <div className="Nav_item">About</div>
-                <div className="Nav_item">Blog</div>
-                <div className="Nav_item">Contact</div>
+                <NavLink exact to='/' activeClassName="highlight">
+                    <div className="Nav_item">Home</div>
+                </NavLink>
+                <NavLink exact to='/about' activeClassName="highlight">
+                    <div className="Nav_item">About</div>
+                </NavLink>
+                <NavLink exact to='/blog' activeClassName="highlight">
+                    <div className="Nav_item">Blog</div>
+                </NavLink>
+                <NavLink exact to='/contact' activeClassName="highlight">
+                    <div className="Nav_item">Contact</div>
+                </NavLink>
             </div>
         </div>
     )

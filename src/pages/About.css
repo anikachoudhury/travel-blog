@@ -1,0 +1,24 @@
+.About {
+    padding-top: 100px;
+    padding-left: 18%;
+    padding-right: 18%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_title {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #143642;
+
+    padding-bottom: 40px;
+}
+
+.About_text {
+    line-height: 30px;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}

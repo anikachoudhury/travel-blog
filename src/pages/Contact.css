@@ -1,0 +1,28 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+    background-color: #143642;
+    color: white;
+}
+
+.Contact_icon {
+    padding-bottom: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.Contact_text {
+    padding-bottom: 40px;
+}
+
+.Contact_icon:hover {
+    color: #F18F01;
+}
+
