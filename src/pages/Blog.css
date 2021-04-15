@@ -1,0 +1,17 @@
+.Card_container_one {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* .Card_container_two {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.Blog {
+    padding-top: 80px;
+}
+
+
+
